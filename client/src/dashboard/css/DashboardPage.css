@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:700,800&display=swap');
+.WidgetList {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.DashboardPage {
+    background-color: #F5F6FA;
+    width: 100%;
+}
+
+.Marging {
+    background-color: #F5F6FA;
+    width: 100%;
+    height: 30px;
+}
+
+.Widget {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.WidgetIconContainer {
+    margin-left: 12.5px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    margin-right: 7px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.WidgetContainer {
+    flex: 5;
+    text-align: left;
+}
+
+.WidgetIcon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.WidgetTitle {
+    color: #B3B3B3;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.WidgetContent {
+    margin-bottom: 5px;
+    color: #000000;
+    margin-bottom: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.WidgetInfo {
+    color: #B3B3B3;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.RedditContent {
+    font-size: 12px;
+    text-align: left;
+}
+
+.MeteoContent {
+    font-size: 60px;
+    text-align: center;
+}
+
+.SpotifyContent {
+    font-size: 20px;
+    text-align: left;
+}
+
+.SpotifyBy {
+    font-size: 12px;
+}
+
+.MailContent {
+    font-size: 20px;
+    text-align: left;
+}
+
+.MailNbr {
+    font-size: 30px;
+}
+
+.CalendarContent {
+    font-size: 25px;
+    text-align: left;
+}
+
+.ListInWidget {
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+.TitleInWidget {
+    margin-left: 5%;
+    margin-right: 25%;
+}

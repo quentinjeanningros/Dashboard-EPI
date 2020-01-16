@@ -1,0 +1,62 @@
+.CreateText {
+    margin-right: 12.5px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    border-radius: 10px;
+    color: #2684FE;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.SelectorContainer {
+    margin-bottom: 1vh;
+    width: 100%;
+}
+
+.CustomSelector {
+    width: 70%;
+    height: 40px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #333D46;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+select::-ms-expand {	display: none; }
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.TimeContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.InfoContainer {
+    width: 100%;
+}
+
+.TxtTime {
+    width: 100%;
+    flex: 2
+}
+
+.TimeSelectorContainer {
+    width: 100%;
+    flex: 1;
+}
+
+.LoginButtonCreate {
+    width: 100%;
+    margin: 12.5px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

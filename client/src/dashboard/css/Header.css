@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:700&display=swap');
+
+.header {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.appLogo {
+    height: 30px;
+    flex: 1;
+}
+
+.verticalCenter {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.smallGreyText {
+    color: #B3B3B3;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
+    flex: 4;
+    height: 15px;
+    line-height: 15px;
+}
+
+.nameText {
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logout {
+    height: 25px;
+    flex: 1;
+}

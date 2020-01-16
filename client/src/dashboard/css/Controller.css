@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.backgroundSettings {
+    background-color: #F5F6FA;
+    height: 100vh;
+    width: 100%;
+}
+
+.PageTitle {
+    position: absolute;
+    color: #333D46;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+    left: 10%;
+    top: 70px;
+}
+
+.bigLogo {
+    width: 21%;
+    margin-top: 10.2vh;
+}
+
+.horizontalCenter {
+    text-align: center;
+}
+
+.textBoxContainer {
+    margin-bottom: 1vh;
+}
+
+.containerLogInfo {
+    margin-top: 9vh;
+}
+
+.customTextBox {
+    width: 70%;
+    height: 27px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #333D46;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.customTextBox:focus {
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+    width: 75%;
+    height: 27px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #333D46;
+    outline: none;
+}
+
+.textBoxName {
+    color: #333D46;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.readyButton {
+    background-color: #2684FE;
+    color: #ffffff;
+
+}
+
+.notReadyButton {
+    background-color: #ffffff;
+    color: #333D46;
+}
+
+.buttonContainer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.LoginButton {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.createButton {
+    margin-right: auto;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    color: #B3B3B3;
+}
+
+.createButton:hover {
+    color: #2684FE;
+}
+
+.horizontalCenterRelative {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textButtonLogin {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.verticalCenterRelative {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.CustomFixed {
+    position: fixed;
+    width: 100%;
+    top: 0%;background: rgb(245,246,250);
+    background: linear-gradient(180deg, rgba(245,246,250,1) 90%, rgba(245,246,250,0) 100%);;
+    height: 125px;
+    z-index: 1;
+}
